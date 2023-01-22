@@ -112,4 +112,39 @@ input:checked {
   button div {
     display: none;
   }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 38px 38px 0px 38px;
+
+    position: fixed;
+    width: 100%;
+    background-color: #09090a;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  #form-habits {
+    display: flex;
+
+    padding: 122px 38px 38px;
+  }
+
+  .day {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .habits {
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 17px;
+  }
 }
